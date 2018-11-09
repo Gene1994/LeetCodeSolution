@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/catagories/array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/catagories/hashtable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/catagories/tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/catagories/linkedlist" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
