@@ -44,13 +44,16 @@ public class MostCommonWord {
     public String mostCommonWord(String paragraph, String[] banned) {
         if (paragraph == null)
             return "";
+        //fix the paragraph
         String fixedParagraph = paragraph.replaceAll("[\\pP‘’“”]", " ").toLowerCase();
         List<String> listBanned = Arrays.asList(banned);
         String[] words = fixedParagraph.split(" ");
+        //sort the words, then the common words gather together.
         Arrays.sort(words);
         int times = 1;
         int maxTime = Integer.MIN_VALUE;
         String res = null;
+        //initialize the res
         for (String s : words){
             if (!s.equals("")){
                 res = s;
@@ -58,6 +61,7 @@ public class MostCommonWord {
             }
         }
         for (int i = 0; i < words.length-1; i++){
+            //skip firs ""s.
             if (words[i].equals(""))
                 continue;
             if (words[i].equals(words[i+1]) && !listBanned.contains(words[i])){
