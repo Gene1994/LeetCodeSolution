@@ -2,7 +2,6 @@
  * @author: create by Gene1994
  * @date:2018/11/10
  */
-
 /**
  * No.82  Remove Duplicates from Sorted List II
  * Difficulty:Medium

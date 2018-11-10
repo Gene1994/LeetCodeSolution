@@ -15,6 +15,8 @@ Please join me together!
 
 1.Array
 
+    *No.1 TwoSum
+    *No.4 Median of Two Sorted Arrays
 2.Dynamic Programming
 
 3.String
@@ -25,10 +27,12 @@ Please join me together!
 
 5.Hash Table
 
+    *No.3 Longest Substring Without Repeating Characters
 6.Tree
 
 7.Linked List
 
+    *No.2 Add Two Numbers
     *No.382 LinkedListRandomNode
     
 8.Greedy

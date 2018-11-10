@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Random;
 
 /**
- LeetCode Problem No.382 LinkedListRandomNode
+No.382 LinkedListRandomNode
 
  Difficulty:Medium
 
