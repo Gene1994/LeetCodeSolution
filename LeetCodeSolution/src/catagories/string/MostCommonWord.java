@@ -6,7 +6,9 @@
 import java.util.*;
 
 /**
- LeetCode Problem No.819
+ LeetCode Problem No.819 MostCommonWord
+
+ Difficulty:Easy
 
  Given a paragraph and a list of banned words, return the most frequent word that is not in the list of banned words.  It is guaranteed there is at least one word that isn't banned, and that the answer is unique.
 
@@ -44,7 +46,13 @@ public class MostCommonWord {
     public String mostCommonWord(String paragraph, String[] banned) {
         if (paragraph == null)
             return "";
-        //fix the paragraph
+
+        /*
+        fix the paragraph for the wired test case below:
+        Input:
+        "a, a, a, a, b,b,b,c, c"
+        ["a"]
+         */
         String fixedParagraph = paragraph.replaceAll("[\\pP‘’“”]", " ").toLowerCase();
         List<String> listBanned = Arrays.asList(banned);
         String[] words = fixedParagraph.split(" ");
@@ -80,6 +88,10 @@ public class MostCommonWord {
     }
 
     //fastest
+    //It is a wrong solution now, which can not pass the test case:
+    // Input:
+    //  "a, a, a, a, b,b,b,c, c"
+    //  ["a"]
     public String mostCommonWord1(String paragraph, String[] banned) {
         HashMap<String,Integer> banMap=new HashMap<String,Integer>();
         for(String banStr:banned){
@@ -154,6 +166,7 @@ public class MostCommonWord {
     }
 
     //Most popular
+    //@author : saobiaozi
     public String mostCommonWord3(String p, String[] banned) {
         Set<String> ban = new HashSet<>(Arrays.asList(banned));
         Map<String, Integer> count = new HashMap<>();
@@ -165,9 +178,11 @@ public class MostCommonWord {
     //test
     public static void main(String[] args) {
         MostCommonWord mostCommonWord = new MostCommonWord();
-        String paragraph = "abc abc? abcd the jeff!";
-        String[] banned = {"abc","abcd","jeff"};
-
+//        String paragraph = "abc abc? abcd the jeff!";
+//        String[] banned = {"abc","abcd","jeff"};
+        String paragraph = "a, a, a, a, b,b,b,c, c";
+        String[] banned = {"a"};
         System.out.println(mostCommonWord.mostCommonWord(paragraph, banned));
+        System.out.println(mostCommonWord.mostCommonWord1(paragraph, banned));
     }
 }

@@ -4,13 +4,17 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/catagories" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/catagories/string" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/catagories/array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/catagories/hashtable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/catagories/tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/common" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/catagories/linkedlist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/catagories" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/catagories/dynamicprogramming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/catagories/greedy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/catagories/math" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/catagories/stack" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
