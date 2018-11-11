@@ -21,9 +21,12 @@ Please join me together!
 
 3.String
 
+    *No.8 String to Integer (atoi)
     *No.819 MostCommonWord
     
 4.Math
+
+    *No.7 Reverse Integer
 
 5.Hash Table
 
