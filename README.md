@@ -1,4 +1,4 @@
-# LeetCodeSolution
+LeetCodeSolution
 ======
 
 Overview
