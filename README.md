@@ -1,6 +1,8 @@
 # LeetCodeSolution
+======
 
-##Overview
+Overview
+------
 Sort my LeetCode Solutions by catagories.
 
 Includes Array, Dynamic Programming, String, Math, Hash Table, Tree, Linked List, Greedy, Stack, etc.
@@ -11,7 +13,8 @@ In this project, you can easily find the solutions of the difficulties encounter
 
 Please join me together!
 
-##Catalog
+Catalog
+------
 
 1.Array
 
