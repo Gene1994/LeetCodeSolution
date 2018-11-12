@@ -18,8 +18,8 @@ Catalog
 
 1.Array
 
-    *No.1 TwoSum
-    *[No.4 Median of Two Sorted Arrays](https://github.com/Gene1994/LeetCodeSolution/blob/master/LeetCodeSolution/src/catagories/array/MedianofTwoSortedArrays.java)
+[No.1 TwoSum](https://github.com/Gene1994/LeetCodeSolution/blob/master/LeetCodeSolution/src/catagories/array/TwoSum.java)
+[No.4 Median of Two Sorted Arrays](https://github.com/Gene1994/LeetCodeSolution/blob/master/LeetCodeSolution/src/catagories/array/MedianofTwoSortedArrays.java)
 2.Dynamic Programming
 
 3.String
