@@ -22,6 +22,14 @@ Catalog
 
 [No.4 Median of Two Sorted Arrays](https://github.com/Gene1994/LeetCodeSolution/blob/master/LeetCodeSolution/src/catagories/array/MedianofTwoSortedArrays.java)
 
+[No.15 3Sum]
+
+[No.16 3Sum Closest]
+
+[No.26 Remove Duplicates from Sorted Array]
+
+[No.35 Search Insert Position]
+
 ### 2.Dynamic Programming
 
 ### 3.String
