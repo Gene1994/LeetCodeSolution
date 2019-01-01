@@ -3,7 +3,9 @@
  * @date:2018/11/10
  */
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -162,5 +164,16 @@ public class TwoSum {
             bucket[currNumLLIndex] = i;
         }
         return null;
+    }
+
+    public static void main(String[] args) {
+        String s = "abcde";
+
+        int len = s.length();
+        for (int start = 0; start < len; start++) {
+            for (int end = start + 1; end <= len; end++) {
+                System.out.println(s.substring(start,end));
+            }
+        }
     }
 }
