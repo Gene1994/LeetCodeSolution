@@ -5,6 +5,8 @@ package tree;
  * @date:2018/12/15
  */
 
+import common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;

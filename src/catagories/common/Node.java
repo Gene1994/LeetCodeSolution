@@ -1,4 +1,4 @@
-package tree;
+package common;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ public class Node {
 
     public Node() {}
 
-    public Node(int _val, List<Node> _children) {
+    public Node(int _val,List<Node> _children) {
         val = _val;
         children = _children;
     }

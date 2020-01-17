@@ -3,6 +3,8 @@
  * @date:2018/12/2
  */
 
+import common.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 

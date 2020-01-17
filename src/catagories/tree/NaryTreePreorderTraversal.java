@@ -5,6 +5,8 @@ package tree;
  * @date:2019/1/1
  */
 
+import common.Node;
+
 import java.util.*;
 
 /**
@@ -13,16 +15,16 @@ import java.util.*;
  */
 public class NaryTreePreorderTraversal {
 //    List<Integer> res = new ArrayList<>();
-//    public List<Integer> preorder(Node root) {
+//    public List<Integer> preorder(common.Node root) {
 //        if (root == null)
 //            return res;
 //        go(root, res);
 //       return res;
 //    }
-//    private void go(Node root, List list) {
+//    private void go(common.Node root, List list) {
 //        res.add(root.val);
 //        if (root.children != null) {
-//            for (Node n : root.children) {
+//            for (common.Node n : root.children) {
 //                go(n, res);
 //            }
 //        }

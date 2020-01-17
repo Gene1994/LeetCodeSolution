@@ -3,8 +3,10 @@
  * @date:2018/12/2
  */
 
+import common.ListNode;
+
 /**
- * No.237. Delete Node in a Linked List
+ * No.237. Delete common.Node in a Linked List
  *
  * Difficulty:Easy
  *

@@ -2,6 +2,9 @@
  * @author: create by Gene1994
  * @date:2018/11/10
  */
+
+import common.ListNode;
+
 /**
  * No.2 Add Two Numbers
  *

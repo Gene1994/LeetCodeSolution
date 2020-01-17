@@ -1,5 +1,6 @@
 package tree;
 
+import common.TreeNode;
 
 /**
  * @author: create by Gene1994

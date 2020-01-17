@@ -1,5 +1,7 @@
 package tree;
 
+import common.TreeNode;
+
 import java.util.*;
 
 /**
@@ -19,7 +21,7 @@ public class BinaryTreeLevelOrderTraversal {
 
         int level = 0;
 //        while (!q.isEmpty()){
-//            TreeNode treeNode = q.poll().);
+//            common.TreeNode treeNode = q.poll().);
 //            level = map.get(treeNode) + 1;
 //
 //            if (treeNode.left != null){

@@ -6,6 +6,7 @@ package tree;
  */
 
 import com.sun.org.apache.regexp.internal.RE;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

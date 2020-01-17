@@ -3,6 +3,8 @@
  * @date:2018/12/15
  */
 
+import common.ListNode;
+
 /**
  *
  * No.24

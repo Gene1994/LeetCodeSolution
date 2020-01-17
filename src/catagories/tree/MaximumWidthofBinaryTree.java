@@ -5,6 +5,8 @@ package tree;
  * @date:2018/11/29
  */
 
+import common.TreeNode;
+
 import java.security.KeyStore;
 import java.util.LinkedList;
 import java.util.Queue;

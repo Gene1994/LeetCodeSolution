@@ -3,6 +3,8 @@
  * @date:2018/12/2
  */
 
+import common.ListNode;
+
 /**
  * No.61 Rotate List
  *

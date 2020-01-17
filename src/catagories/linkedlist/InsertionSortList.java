@@ -3,7 +3,7 @@
  * @date:2018/12/2
  */
 
-import java.util.List;
+import common.ListNode;
 
 /**
  * No147. Insertion Sort List
